@@ -1,0 +1,79 @@
+
+How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+By filtering out the unchanged lines,
+diff allowed me to check fewer lines for typos.
+
+
+
+How could having easy access to the entire history
+of a file make you a more efficient programmer
+in the long term?
+
+I would spend less time manually checking copies
+against each other to see where or when an error
+was introduced.
+
+
+
+What do you think are the pros and cons of manually
+choosing when to create a commit, like you do in Git,
+vs having versions automatically saved,
+like Google Docs does?
+
+pros of manual: more rational in that I can decide
+                when a logical change has been made.
+
+cons of manual: I may forget to commit altogether and
+                then there's no history at all.
+
+
+
+Why do you think some version control systems,
+like Git, allow saving multiple files in one
+commit, while others, like Google Docs, treat
+each file separately?
+
+I assume that Git was especially designed to keep
+track of repositories. And the reason for doing
+that is specifically because code for a whole thing
+often involves more than one file, so that you can
+see the logical change as opposed to the literal
+(individual) ones.
+Doing this I assume takes more work, and things
+like Google Docs, because they haven't prioritised
+this approach, wouldn't care about putting in the
+extra work of this functionality. It probably
+wouldn't get used if it was an option?
+
+
+
+How can you use the commands git log and git diff
+to view the history of files?
+
+git log gives a list of commits in descending order
+that have an id, author, time and commit message.
+This gives an overview (or should with good
+messages) of changes made.
+
+git diff between two commit ids gives the specific
+changes made from one commit to another.
+
+
+
+How might using version control make you more
+confident to make changes that could break
+something?
+
+Knowing that I can roll back any commit means
+I don't have to be too scared of unforeseen
+consequences.
+
+
+
+Now that you have your workspace set up, what
+do you want to try using Git for?
+
+I want to start contributing to projects on
+GitHub. But I'm not sure that I'm set up?
