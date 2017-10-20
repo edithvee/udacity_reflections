@@ -1,0 +1,23 @@
+What happens when you initialize a repository? 
+Why do you need to do it?
+
+Initialising a git repo adds a .git file to the existing repo.
+This file I htink contains th metadata and history of 
+tracked files within the repo.
+You need to do it in order to change the repo from a regular 
+folder into a git repo in which files may be tracked.
+
+
+
+How is the staging area different from the working directory 
+and the repository? What value do you think it offers?
+
+The staging area is closer to the git repository than the 
+working directory, but is not yet a commit.
+Its use is in that it allows one to track changes to a file 
+that may be planned to be part of a commit but ends up not 
+being logically connected to the change made.
+It also means not everly literal thing needs to be included 
+in every commit, eg background files/libraries etc that can be 
+assumed as given.
+
