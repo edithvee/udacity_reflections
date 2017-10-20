@@ -31,3 +31,12 @@ and between the working directory and the staging area,
 it should be spotted if changes that belong together 
 haven't been staged together, or if changes that don't belong 
 together have.
+
+
+
+What are some situations when branches would be helpful in 
+keeping your history organized? How would branches help?
+
+If writing an experimental feature or doing anything new.
+Branches help in that you can play without disturbing 
+the working master branch.
