@@ -21,3 +21,13 @@ It also means not everly literal thing needs to be included
 in every commit, eg background files/libraries etc that can be 
 assumed as given.
 
+
+
+How can you use the staging area to make sure 
+you have one commit per logical change?
+
+By running diffs between the staging area and the repository, 
+and between the working directory and the staging area, 
+it should be spotted if changes that belong together 
+haven't been staged together, or if changes that don't belong 
+together have.
