@@ -58,3 +58,12 @@ The result is a new tip with the two previous tips as
 its two parents. We represent it as such in the diagram 
 to show that this branch's log will include all the 
 commits made on both previous branches.
+
+
+What are the pros and cons of Git’s automatic merging vs. 
+always doing merges manually?
+
+Always doing it manually would take a lot of time, but 
+always doing it automatically would overlook conflicts 
+where code has been moved around as well as edited. 
+Bugs may be introduced here.
