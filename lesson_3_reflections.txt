@@ -30,3 +30,11 @@ Forks are exactly like clones except that
 2) they link to the GitHub repository from which it was copied.
 I would use this to credit someone else,
 and clone/push if it was my or a collaborator's project.
+
+
+
+What is the benefit of having a copy of the last known state
+of the remote stored locally?
+
+I'd be able to see whether the remote has a conflict with
+what I'm working on, or save me from duplicating work?
