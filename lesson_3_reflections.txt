@@ -10,3 +10,23 @@ rather than having Git automatically stay
 up to date with your remote repository?
 
 It might not be a logical place to update at?
+
+
+
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+Branches are for different features in one repository.
+They're good for experimenting while keeping the master branch
+alive and well and fully functional.
+
+Clones are straight copies of a repository at whatever time
+it was cloned.
+You would want to clone a repository onto a local to edit
+and then push the changes to a remote, especially if collaborating.
+
+Forks are exactly like clones except that
+1) they're inside of GitHub (once you copy to local it's a clone, I think?)
+2) they link to the GitHub repository from which it was copied.
+I would use this to credit someone else,
+and clone/push if it was my or a collaborator's project.
