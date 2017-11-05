@@ -38,3 +38,13 @@ of the remote stored locally?
 
 I'd be able to see whether the remote has a conflict with
 what I'm working on, or save me from duplicating work?
+
+
+
+How would you collaborate without using Git or GitHub?
+What would be easier, and what would be harder?
+
+I would put a copy of the code on DropBox or email it?
+Reviewing changes manually would be harder,
+and I guess keeping track of changes/versions might be easier
+initially as I wouldn't have to wrap my head around the logic of it?
