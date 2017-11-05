@@ -68,11 +68,3 @@ Always doing it manually would take a lot of time, but
 always doing it automatically would overlook conflicts 
 where code has been moved around as well as edited. 
 Bugs may be introduced here.
-
-
-
-Why might you want to always pull changes manually
-rather than having Git automatically stay
-up to date with your remote repository?
-
-It might not be a logical place to update at?
